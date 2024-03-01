@@ -54,3 +54,31 @@
     border: 1px solid #656A7B;
     border-radius: 20px;
 }
+
+.home .acenar .diga{
+    margin: 0 10px;
+}
+
+.home .acenar:hover{
+    padding: 20px;
+    border: 2px solid #00FF7F;
+    color: #00FF7F;
+}
+
+.home .acenar:hover span{
+    animation: tchau 2s infinite alternate;
+}
+
+
+
+@keyframes tchau {
+    0% {
+      transform: rotate(0deg); /* Começa com 0 graus */
+    }
+    50%{
+        transform: rotate(45deg)
+    }
+    100% {
+      transform: rotate(0deg); /* Termina com 45 graus */
+    }
+  }

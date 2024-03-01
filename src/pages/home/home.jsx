@@ -21,7 +21,7 @@ function Home (){
             </div>
 
             <div className='acenar'>
-                <span>Diga oi </span>
+                <p className='diga'>Diga oi </p>
                 <span class="material-symbols-outlined">
                     waving_hand
                 </span>
