@@ -1,0 +1,48 @@
+.sobre{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.sobre .cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    color: #656A7B;
+}
+
+.sobre .cabecalho .icone{
+    margin: 10px;
+}
+
+.sobre .texto{
+    width: 80%;
+    color: #656A7B;
+    font-size: 2em;
+}
+
+.sobre .textoDois{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    color: #656A7B;
+    font-size: 2em;
+    margin-left: 0;
+}
+
+.sobre .textoDois p{
+    width: 70%;
+}
+
+.sobre .textoDois .foto{
+    width: 300px;
+    height: 300px;
+    margin: 0px 50px;
+    background-color: #00FF7F;
+    border-radius: 200px;
+    
+}

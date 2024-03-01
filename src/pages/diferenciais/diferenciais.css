@@ -1,0 +1,62 @@
+.diferenciais{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.diferenciais .cabecalho{
+    width: 80%;
+    color: #656A7B;
+}
+
+.diferenciais .linha{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+.diferenciais .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 24%;
+    padding: 60px 24px;
+    margin-right: 14%;
+}
+
+.diferenciais .card .icone{
+    border: 1px solid #00FF7F;
+    padding: 20px 20px;
+    border-radius: 40px;
+}
+
+.diferenciais .card .name{
+    font-size: 2em;
+    color: #00FF7F;
+    font-weight: 100;
+}
+
+.diferenciais .card .texto{
+    color: #656A7B;
+    font-weight: 80;
+    margin-left: 10px;
+}
+
+.diferenciais .linhaDois{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80%;
+}
+
+.diferenciais .linhaDois .card{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 24%;
+    padding: 60px 24px;
+    margin-right: 14%;
+}

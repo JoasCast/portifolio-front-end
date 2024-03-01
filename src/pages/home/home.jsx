@@ -1,0 +1,34 @@
+import './home.css'
+
+function Home (){
+
+
+    return(
+        <div className="home">
+            <h3 className="name">JoasCast Dev 
+            <span className='rosa'>.</span>
+            </h3>
+            <div className="titulo">
+                <h1>"A 
+                    <span className="verde"> simplicidade</span> é o mais alto grau da  
+                    <span className="verde"> sofisticação</span>"
+                </h1>
+            </div>
+            <div className="citacao">
+                <div className="autor">
+                    <h3>Leonardo da Vinci</h3>
+                </div>
+            </div>
+
+            <div className='acenar'>
+                <span>Diga oi </span>
+                <span class="material-symbols-outlined">
+                    waving_hand
+                </span>
+            </div>
+
+        </div>
+    )
+}
+
+export default Home;

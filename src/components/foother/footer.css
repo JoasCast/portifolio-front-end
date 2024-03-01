@@ -1,0 +1,34 @@
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.footer .content{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    color: #656A7B;
+}
+
+.footer .content .icone{
+    margin: 10px;
+}
+
+.footer .content .botao{
+    width: 10%;
+    height: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #656A7B;
+    margin: 10px 0;
+    border: 1px solid #656A7B;
+    border-radius: 20px;
+    font-size: small;
+    cursor: pointer;
+}
