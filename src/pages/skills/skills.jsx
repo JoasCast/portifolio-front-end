@@ -61,7 +61,7 @@ function Skills() {
             </div>
 
             <h6 className='titulo' >Frameworks</h6>
-            <div className="linha">
+            <div className="linhaDois">
                 <div className="card">
                     <img src={react} alt="icone UI/UX" className="icone" />
                     <h1 className="name">React</h1>
