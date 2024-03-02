@@ -45,12 +45,19 @@
     
 }
 
+.home a{
+    width: auto;
+    color: #656A7B;
+    text-decoration: none;
+}
+
 .home .acenar{
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-between;
+    width: 80%;
     padding: 15px;
-    margin: 5%;
+    margin: 40% 0%;
     border: 1px solid #656A7B;
     border-radius: 20px;
 }
@@ -66,9 +73,10 @@
 }
 
 .home .acenar:hover span{
-    animation: tchau 2s infinite alternate;
+    animation: tchau 1s infinite alternate;
+    color: #00FF7F;
+    
 }
-
 
 
 @keyframes tchau {

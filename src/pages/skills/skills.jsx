@@ -35,7 +35,7 @@ function Skills() {
                 <span class="material-symbols-outlined" alt="sinbolo de desenvolvimento">code</span>
                     <h1 className="name">Font-end</h1>
                     <p className="texto">Conhecimento de desenvolvimento front-end, criando a parte visual e
-                     interativa de sites, construindo layouts atraentes e intuitivos para os usuários</p>
+                     interativa de sites.</p>
                 </div>
             </div>
 

@@ -1,7 +1,7 @@
 import './home.css'
 
 function Home (){
-
+    
 
     return(
         <div className="home">
@@ -19,13 +19,15 @@ function Home (){
                     <h3>Leonardo da Vinci</h3>
                 </div>
             </div>
-
-            <div className='acenar'>
-                <p className='diga'>Diga oi </p>
-                <span class="material-symbols-outlined">
-                    waving_hand
-                </span>
-            </div>
+            <a href="mailto:joascastelo5@gmail.com?subject=Assunto&body=">
+                <div className='acenar'>
+                    <p className='diga'>Diga oi </p>
+                    <span class="material-symbols-outlined">
+                        waving_hand
+                    </span>
+                </div>
+            </a>
+            
 
         </div>
     )

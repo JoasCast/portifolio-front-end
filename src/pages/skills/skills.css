@@ -29,7 +29,15 @@
 .skills .card{
     border: 1px solid #00FF7F;
     width: 24%;
+    height: 200px;
     padding: 60px 24px;
+    transition: all 0.5s;
+}
+
+.skills .card:hover{
+    margin: 10px;
+    border-radius: 20px;
+    transform: scale(1.1);
 }
 
 .skills .card .icone{
@@ -47,7 +55,7 @@
 }
 
 .skills .card .name{
-    font-size: 2em;
+    font-size: 1.5em;
     color: #00FF7F;
     font-weight: 100;
 }
