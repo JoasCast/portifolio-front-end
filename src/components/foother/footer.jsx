@@ -14,10 +14,18 @@ function Footer(params) {
                         <p>curriculum</p>
                         <span class="material-symbols-outlined">arrow_outward</span>
                 </div>
-                <div>    
-                    <img src={github} alt="github do desenvolvedor" className='icone'/>
-                    <img src={linkedin} alt="linkedin do desenvolvedor" className='icone'/>
-                    <img src={gmail} alt="email do desenvolvedor" className='icone'/>
+                <div className='icones'>
+                    <a href="https://github.com/JoasCast" >
+                        <img src={github} alt="github do desenvolvedor" className='icone'/>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/joas-castelo/" >
+                        <img src={linkedin} alt="linkedin do desenvolvedor" className='icone'/>
+                    </a>
+
+                    <a href="mailto:joascastelo5@gmail.com?subject=Assunto&body=" >
+                        <img src={gmail} alt="email do desenvolvedor" className='icone'/>
+                    </a>
                 </div>
             </div>
         </div>
