@@ -8,7 +8,7 @@ function Sobre(){
 
 
     return(
-        <div className="sobre">
+        <div className="sobre" id='sobre'>
             <div className="cabecalho">
                 <h4>About Me</h4>
                 <div className='icones'>

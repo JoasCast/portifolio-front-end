@@ -10,7 +10,6 @@ import Sobre from './pages/sobre/sobre';
 function App() {
   return (
     <div className="app">
-
       <Nav/>
       <Home/>
       <hr className='linha' />

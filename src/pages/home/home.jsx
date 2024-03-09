@@ -4,7 +4,7 @@ function Home (){
     
 
     return(
-        <div className="home">
+        <div className="home" id='home'>
             <h3 className="name">JoasCast Dev 
             <span className='rosa'>.</span>
             </h3>

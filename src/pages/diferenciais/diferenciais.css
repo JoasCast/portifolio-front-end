@@ -14,6 +14,7 @@
 .diferenciais .linha{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     width: 80%;
 }
 
@@ -22,9 +23,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 24%;
+    width: 40%;
     padding: 60px 24px;
-    margin-right: 14%;
+    margin: 4%;
+    border-radius: 10px;
+    border: 2px solid #00FF7F;
+    transition: all 0.5s;
+}
+
+.diferenciais .card:hover{
+    transform: scale(1.1);
 }
 
 .diferenciais .card .icone{
@@ -34,29 +42,16 @@
 }
 
 .diferenciais .card .name{
-    font-size: 2em;
+    font-size: 3em;
     color: #00FF7F;
     font-weight: 100;
+    margin: 6px;
 }
 
 .diferenciais .card .texto{
     color: #656A7B;
     font-weight: 80;
-    margin-left: 10px;
-}
-
-.diferenciais .linhaDois{
-    display: flex;
-    flex-direction: row-reverse;
-    width: 80%;
-}
-
-.diferenciais .linhaDois .card{
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    width: 24%;
-    padding: 60px 24px;
-    margin-right: 14%;
+    margin: 10px;
+    font-size: 1.5em;
+    text-align: center;
 }

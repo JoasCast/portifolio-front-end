@@ -24,15 +24,14 @@
 }
 
 .projetos .linha .card img{
-    background-color: #07A1BD;
-    width: 92%;
-    height: 60%;
+    width: 500px;
+    height: 500px;
     padding: 4%;
     border-radius: 10%;
 }
 
 .projetos .linha .card .footer{
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

@@ -1,14 +1,14 @@
 import "./projetos.css"
-import notebook from '../../Assets/tela inicial.png'
-import vue from '../../Assets/icone-vuejs.svg'
-import estagio from '../../Assets/e-stagio.png'
+import notebook from '../../Assets/fortaleza em música.png'
+import vue from '../../Assets/ecomerce.png'
+import estagio from '../../Assets/e-stágio.png'
 
 function Projetos() {
     
 
     return(
 
-        <div className="projetos">
+        <div className="projetos" id="projetos">
 
             <div className="cabecalho">
                 <h4>Projetos</h4>
@@ -38,10 +38,10 @@ function Projetos() {
                     <div className="footer">
                         <div className="content">
                             <h1>E-comerce</h1>
-                            <a className="botao">
+                            <button className="botao">
                                 <p>view project</p>
                                 <span class="material-symbols-outlined">arrow_outward</span>
-                            </a>
+                            </button>
                         </div>
                         <p>Um projeto de e-comerce completo para aprimorar meus conhecimentos em Vue3.
                             </p>
