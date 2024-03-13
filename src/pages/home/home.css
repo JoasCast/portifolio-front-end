@@ -109,12 +109,9 @@
 }
 
 @media (max-width: 450px) {
-    /* .home{
-        width: 100vw;
-    } */
 
     .home .name{
-        width: 100%;
+        width: 80%;
         font-size: 1em;
     }
 

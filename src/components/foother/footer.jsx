@@ -28,6 +28,7 @@ function Footer() {
                     </a>
                 </div>
             </div>
+            <hr className='linha' />
         </div>
     )
 }

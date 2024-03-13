@@ -80,8 +80,8 @@
 
     .nav {
       flex-direction: row;
-      width: 80%;
-      padding: 6px 10px;
+      width: 99.5%;
+      padding: 6px 0px;
       margin: 0px 0px;
       bottom: 0;
       border-radius: 0;
@@ -92,13 +92,13 @@
     }
 
     .nav .material-symbols-outlined{
-      font-size: 1.5em;
-      margin: 0px 10px;
+      font-size: 2em;
+      margin: 0px 9px;
     }
 
     .nav .icone{
-      width: 20px;
-      margin: 0px 20px;
+      width: 30px;
+      margin: 0px 10px;
     }
 
     .nav .active{
@@ -107,7 +107,7 @@
     }
 
     .nav .material-symbols-outlined:hover{
-      font-size: 1em;
+      font-size: 1.2em;
       margin: 6px;
     }
 

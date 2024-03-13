@@ -6,22 +6,11 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  align-items: center;
+  justify-content: center;
 }
 
 .app .linha{
   width: 90%;
   border-color: #656A7B;
-}
-
-@media (max-width: 450px) {
-
-  .app {
-    width: 100vw;
-  }
-
-  .app .linha{
-    width: 80%;
-    border-color: #656A7B;
-  }
-  
 }

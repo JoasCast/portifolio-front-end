@@ -71,3 +71,46 @@
     width: 80%;
     gap: 9%;
 }
+
+@media (max-width: 450px) {
+
+    .skills .linha{
+        flex-wrap: wrap;
+    }
+  
+    .skills .card .name{
+        font-size: 1em;
+        color: #00FF7F;
+        font-weight: 100;
+    }
+
+    .skills .card{
+        width: 30%;
+        height: 200px;
+        padding: 20px 24px;
+        margin: 2% 0;
+    }
+
+    .skills .card:hover{
+        margin: 0px;
+        border-radius: 0px;
+        transform: none;
+    }
+    
+
+    .skills .card .icone{
+        width: 10px;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .skills .card .material-symbols-outlined{
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    .skills .card .texto{
+        color: #656A7B;
+        font-size: 11px;
+    }
+}

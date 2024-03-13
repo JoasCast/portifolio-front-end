@@ -55,3 +55,38 @@
     font-size: 1.5em;
     text-align: center;
 }
+
+@media (max-width: 450px) {
+
+    .diferenciais .linha{
+        justify-content: space-between;
+    }
+
+    .diferenciais .card{
+        width: 30%;
+        padding: 20px 24px;
+        margin: 4% 0;
+        justify-content: start;
+        transition: none;
+    }
+
+    .diferenciais .card:hover{
+        transform: none;
+    }
+
+    .diferenciais .card .icone{
+        width: 10px;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .diferenciais .card .name{
+        font-size: 1em;
+    }
+
+    .diferenciais .card .texto{
+        margin: 10px 0;
+        font-size: 11px;
+    }
+  
+}

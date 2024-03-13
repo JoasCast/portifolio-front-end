@@ -79,3 +79,28 @@
     background-color: #00FF7F;
     border-radius: 50%;
 }
+
+@media (max-width: 450px) {
+
+    .sobre .texto{
+        color: #656A7B;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .sobre .textoDois{
+        font-size: 1em;
+        flex-direction: column;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .sobre .textoDois p{
+        width: 100%;
+    }
+
+    .sobre .textoDois .foto{
+        width: 200px;
+        height: 200px;
+    }
+}
