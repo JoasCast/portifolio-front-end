@@ -9,6 +9,8 @@
     margin: 20px 20px;
     border: 1px solid #656A7B;
     position: fixed;
+    top: 0;
+    left: 0;
   }
 
   .nav .link{
@@ -85,6 +87,8 @@
       margin: 0px 0px;
       bottom: 0;
       border-radius: 0;
+      top: initial;
+      left: initial;
     }
 
     .nav .link{
@@ -94,6 +98,7 @@
     .nav .material-symbols-outlined{
       font-size: 2em;
       margin: 0px 9px;
+      pointer-events: none;
     }
 
     .nav .icone{
