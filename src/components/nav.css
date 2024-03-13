@@ -14,7 +14,6 @@
   .nav .link{
     background-color: #231922;
     margin: 6px;
-    color: none;
     text-decoration: none;
   }
 
@@ -59,7 +58,6 @@
 
     .nav .link{
       margin: 4px;
-      background-color: none;
     }
 
     .nav .active{
@@ -82,12 +80,35 @@
 
     .nav {
       flex-direction: row;
-      width: 100%;
-      padding: 10px;
+      width: 80%;
+      padding: 6px 10px;
       margin: 0px 0px;
-      border: 1px solid #656A7B;
-      position: fixed;
       bottom: 0;
+      border-radius: 0;
+    }
+
+    .nav .link{
+      margin: 0px;
+    }
+
+    .nav .material-symbols-outlined{
+      font-size: 1.5em;
+      margin: 0px 10px;
+    }
+
+    .nav .icone{
+      width: 20px;
+      margin: 0px 20px;
+    }
+
+    .nav .active{
+      border-radius: 0px;
+      margin: 0px;
+    }
+
+    .nav .material-symbols-outlined:hover{
+      font-size: 1em;
+      margin: 6px;
     }
 
   }

@@ -109,5 +109,41 @@
 }
 
 @media (max-width: 450px) {
+    /* .home{
+        width: 100vw;
+    } */
 
+    .home .name{
+        width: 100%;
+        font-size: 1em;
+    }
+
+    .home .titulo{
+        font-size: 1em;
+    }
+    
+    .home .citacao{
+        width: 87%;
+        font-size: 0.5em;
+    }
+
+    .home .autor{
+        width: 28%;
+    }
+
+    .home .acenar{
+        width: 70%;
+        height: 10px;
+        padding: 16px;
+        margin: 20% 0%;
+    }
+
+    .home .acenar .material-symbols-outlined{
+        font-size: 16px;
+    }
+
+    .home .acenar .diga{
+        margin: 0 5px;
+        font-size: 10px;
+    }
 }
