@@ -19,14 +19,13 @@
 }
 
 .projetos .linha .card{
-    width: 40%;
-    margin: 2% 0;
+    width: 37%;
 }
 
 .projetos .linha .card img{
     width: 500px;
     height: 500px;
-    padding: 4%;
+    margin: 4% 0%;
     border-radius: 10%;
 }
 
@@ -66,5 +65,35 @@
     transform: scale(1.2);
     border: 1px solid #00FF7F;
     color: #00FF7F;
+}
+
+@media (max-width: 1440px) {
+    .projetos .linha .card{
+        width: 40%;
+    }
     
+    .projetos .linha .card img{
+        width: 400px;
+        height: 400px;
+    }
+
+    .projetos .linha .card .footer{
+        width: 86%;
+        font-size: 0.8em;
+        margin: 0%;  
+    }
+
+    .projetos .linha .card .footer .botao{
+        width: 28%;
+        height: 30px;
+        font-size: smaller;
+    }
+
+    .projetos .linha .card .footer .botao p{
+        margin: 0;
+    }
+}
+
+@media (max-width: 450px) {
+
 }

@@ -89,4 +89,25 @@
     100% {
       transform: rotate(0deg);
     }
-  }
+}
+
+@media (max-width: 1440px) {
+    .home .name{
+        font-size: 1.5em;
+    }
+
+    .home .titulo{
+        font-size: 2em;
+    }
+    
+    .home .citacao{
+        width: 82%;
+        font-size: 0.8em;
+        
+    }
+    
+}
+
+@media (max-width: 450px) {
+
+}

@@ -15,7 +15,6 @@
     background-color: #231922;
     margin: 6px;
     color: none;
-    background-color: #231922;
     text-decoration: none;
   }
 
@@ -51,3 +50,44 @@
     scale: 1.4;
   }
   
+  @media (max-width: 1440px) {
+    .nav {
+      width: 1.5%;
+      padding: 0px 8px;
+      margin: 20px 20px;
+    }
+
+    .nav .link{
+      margin: 4px;
+      background-color: none;
+    }
+
+    .nav .active{
+      background-color: #231922;
+      color: #656A7B;
+      border-radius: 20px;
+      margin: 6px;
+    }
+
+    .nav .material-symbols-outlined:hover{
+      font-size: 1.2em;
+      margin: 6px;
+      background-color: #00FF7F;
+      border-radius: 20%;
+      color: #231922;
+    }
+  }
+
+  @media (max-width: 450px) {
+
+    .nav {
+      flex-direction: row;
+      width: 100%;
+      padding: 10px;
+      margin: 0px 0px;
+      border: 1px solid #656A7B;
+      position: fixed;
+      bottom: 0;
+    }
+
+  }

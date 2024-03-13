@@ -4,7 +4,10 @@ import vue from '../../Assets/ecomerce.png'
 import estagio from '../../Assets/e-stágio.png'
 
 function Projetos() {
-    
+
+    function alerta(){
+        return window.alert("Em manutenção")
+    }
 
     return(
 
@@ -38,7 +41,7 @@ function Projetos() {
                     <div className="footer">
                         <div className="content">
                             <h1>E-comerce</h1>
-                            <button className="botao">
+                            <button className="botao" onClick={alerta}>
                                 <p>view project</p>
                                 <span class="material-symbols-outlined">arrow_outward</span>
                             </button>
