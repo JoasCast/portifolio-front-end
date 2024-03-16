@@ -1,4 +1,5 @@
 import "./projetos.css"
+import { i18n } from "../../translate/i18n"
 import notebook from '../../Assets/fortaleza em música.png'
 import vue from '../../Assets/ecomerce.png'
 import estagio from '../../Assets/e-stágio.png'
@@ -28,11 +29,7 @@ function Projetos() {
                                 <span class="material-symbols-outlined">arrow_outward</span>
                             </a>
                         </div>
-                        <p>Uma bolsa de extensão onde tive a responsabilidade de migrar um app mobile 
-                                para desktop. tive o pael de fullstack e trabalhei com react, firebase e a api do google maps, além de
-                                criar a interface. Esse projeto tem como objetivo marcar e trazer informações de músicas que citam
-                                lugares de Fortaleza.
-                            </p>
+                        <p>{i18n.t('projetos.fortaleza')}</p>
                     </div>
                 </div>
 
@@ -46,8 +43,7 @@ function Projetos() {
                                 <span class="material-symbols-outlined">arrow_outward</span>
                             </button>
                         </div>
-                        <p>Um projeto de e-comerce completo para aprimorar meus conhecimentos em Vue3.
-                            </p>
+                        <p>{i18n.t('projetos.ecomerce')} </p>
                     </div>
                 </div>
 
@@ -61,10 +57,7 @@ function Projetos() {
                                 <span class="material-symbols-outlined">arrow_outward</span>
                             </a>
                         </div>
-                        <p>Desenvolvido durante meu estágio no (NPI), que consiste em um sistema para troca de documentos referente a estágio
-                            entre alunos e professores, como pertencente da equipe de design, ficamos responsáveis por pensar a interface do sistema
-                            com um protótipo de alta fidelidade e navegável.
-                            </p>
+                        <p>{i18n.t('projetos.estagio')} </p>
                     </div>
                 </div>
 

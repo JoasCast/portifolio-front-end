@@ -1,4 +1,5 @@
 import "./diferenciais.css"
+import { i18n } from "../../translate/i18n"
 import time from '../../Assets/account-group.svg'
 import desenvolvimento from '../../Assets/icon-desenvolve.svg'
 import scrum from '../../Assets/icon-foguete.svg'
@@ -10,33 +11,33 @@ function Diferencias() {
     return(
         <div className="diferenciais">
             <div className="cabecalho">
-                <h4>Diferencias</h4>
+                <h4>{i18n.t('diferenciais.differential')}</h4>
             </div>
             <div className="linha">
                 <div className="card">
                     <img src={time} alt="icone time" className="icone" />
-                    <h1 className="name">Time</h1>
-                    <p className="texto">Experiência no trabalho em equipe</p>
+                    <h1 className="name">{i18n.t('diferenciais.team')}</h1>
+                    <p className="texto">{i18n.t('diferenciais.teamText')}</p>
                 </div>
 
                 <div className="card">
                     <img src={desenvolvimento} alt="icone time" className="icone" />
-                    <h1 className="name">Desenvolvimento</h1>
-                    <p className="texto">Projetos web desenvolvidos</p>
+                    <h1 className="name">{i18n.t('diferenciais.dev')}</h1>
+                    <p className="texto">{i18n.t('diferenciais.devText')}</p>
                 </div>
             </div>
 
             <div className="linha">
                 <div className="card">
                     <img src={estagio} alt="icone foguete" className="icone" />
-                    <h1 className="name">Estágio</h1>
-                    <p className="texto">Experiencia no mercado de trabalho com estagio no núcleo de práticas em informática</p>
+                    <h1 className="name">{i18n.t('diferenciais.internship')}</h1>
+                    <p className="texto">{i18n.t('diferenciais.internshipText')}</p>
                 </div>
 
                 <div className="card">
                     <img src={scrum} alt="icone time" className="icone" />
                     <h1 className="name">Scrum</h1>
-                    <p className="texto">Costume em utilizar metodologias ágeis</p>
+                    <p className="texto">{i18n.t('diferenciais.scrumText')}</p>
                 </div>
 
             </div>

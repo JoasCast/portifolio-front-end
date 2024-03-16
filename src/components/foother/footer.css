@@ -58,6 +58,11 @@
     .footer .content .botao p{
         margin: 5px 0px;
     }
+
+    .footer .content .icones .icone {
+        width: 100%;
+        transition: width 0.5s;
+    }
   }
 
   @media (max-width: 450px) {
@@ -79,6 +84,11 @@
 
     .footer .content .icones{
         width: 26%;
+    }
+
+    .footer .content .icones .icone {
+        width: 50%;
+        transition: width 0.5s;
     }
 
     .footer .content .icones a{

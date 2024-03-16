@@ -3,6 +3,7 @@ import github from'../../Assets/icons-github.svg'
 import linkedin from '../../Assets/icons-linkedin.svg'
 import gmail from '../../Assets/icons-gmail.svg'
 import perfil from '../../Assets/perfil ruim.png'
+import { i18n } from '../../translate/i18n'
 
 function Sobre(){
 
@@ -27,20 +28,13 @@ function Sobre(){
             </div>
 
             <div className="texto">
-                <span className='titulo'>Olá</span> <p>sou Joás Castelo e estou prestes a
-                    concluir minha graduação em Design Digital na Universidade Federal do Ceará (UFC),
-                    com foco em Front-end. Possuo habilidades em HTML, CSS, JavaScript, React e Vue.js,
-                    além de experiência em UX/UI. Estou acostumado a trabalhar em equipe e aplicar metodologias ágeis.
-                </p>
+                <span className='titulo'>{i18n.t('sobre.hello')}</span> <p>{i18n.t('sobre.textOne')}</p>
             </div>
  
             <div className="textoDois">
-                <p>
-                    Durante minha jornada acadêmica participei do Núcleo de Praticas em Informática (NPI) como UI/UX e de uma
-                    bolsa de extensão como fullstack.
-                </p>
+                <p>{i18n.t('sobre.textOne')}</p>
                 <div className="foto">
-                    <img src={perfil} alt="jovem de oculos com parte do cabelo amarelo e blusa escura" />
+                    <img src={perfil} alt={i18n.t('sobre.alt')} />
                 </div>
             </div>
 
