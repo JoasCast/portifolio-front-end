@@ -71,6 +71,7 @@
     margin: 0px 50px;
     background-color: #00FF7F;
     border-radius: 200px;
+    filter: grayscale(100%) contrast(1);
 }
 
 .sobre .textoDois .foto img{
