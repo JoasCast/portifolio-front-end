@@ -35,9 +35,9 @@ function Home (){
                 <h6>en-US</h6>
             </div>
             <div className="titulo">
-                <h1>"{i18n.t('citacao.fist')}
+                <h1>{i18n.t('citacao.fist')}
                     <span className="verde"> {i18n.t('citacao.spanOne')}</span> {i18n.t('citacao.second')} 
-                    <span className="verde"> {i18n.t('citacao.spanTwo')}</span>"
+                    <span className="verde"> {i18n.t('citacao.spanTwo')}</span>
                 </h1>
             </div>
             <div className="citacao">

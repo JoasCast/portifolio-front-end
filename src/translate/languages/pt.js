@@ -2,10 +2,10 @@ const messages = {
     pt: {
         translations: {
             citacao: {
-                fist: 'A',
+                fist: '"A',
                 spanOne: 'simplicidade',
                 second: 'é o mais alto grau da',
-                spanTwo: 'sofisticação'
+                spanTwo: 'sofisticação"'
             },
             home: {
                 hi: 'Diga oi'
