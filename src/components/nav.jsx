@@ -27,25 +27,25 @@ function Nav() {
     return(
       <nav className='nav'>
         <a href="#home" onClick={() => handleLinkClick('#home')} className='link' >
-          <span class="material-symbols-outlined">
+          <span className="material-symbols-outlined">
             home 
           </span>
         </a>
 
         <a className='link' href="#sobre" onClick={() => handleLinkClick('#sobre')}>
-          <span class="material-symbols-outlined">
+          <span className="material-symbols-outlined">
             account_box
           </span>
         </a>
 
         <a  className='link' href="#skills" onClick={() => handleLinkClick('#skills')}>  
-          <span class="material-symbols-outlined">
+          <span className="material-symbols-outlined">
             code
           </span>
         </a>
 
         <a  className='link' href="#projetos" onClick={() => handleLinkClick('#projetos')}>
-          <span class="material-symbols-outlined">
+          <span className="material-symbols-outlined">
             build
           </span>
         </a>

@@ -42,7 +42,8 @@ const messages = {
             projetos: {
                 fortaleza: 'Uma bolsa de extensão onde tive a responsabilidade de migrar um app mobile para desktop. tive o pael de fullstack e trabalhei com react, firebase e a api do google maps, além de criar a interface. Esse projeto tem como objetivo marcar e trazer informações de músicas que citam lugares de Fortaleza.',
                 ecomerce: 'Um projeto de e-comerce completo para aprimorar meus conhecimentos em Vue3.',
-                estagio: 'Desenvolvido durante meu estágio no (NPI), que consiste em um sistema para troca de documentos referente a estágio entre alunos e professores, como pertencente da equipe de design, ficamos responsáveis por pensar a interface do sistema com um protótipo de alta fidelidade e navegável.'
+                estagio: 'Desenvolvido durante meu estágio no (NPI), que consiste em um sistema para troca de documentos referente a estágio entre alunos e professores, como pertencente da equipe de design, ficamos responsáveis por pensar a interface do sistema com um protótipo de alta fidelidade e navegável.',
+                moteis: 'Este projeto de redesign da landing page do app guia de moteis go, entre os esntregáveis estão: design system, wireframe, protótipo em alta fidelidade e peotótipo navegável.'
             }
         }
     },

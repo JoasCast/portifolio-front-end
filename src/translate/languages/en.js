@@ -2,10 +2,10 @@ const messages = {
     en: {
         translations: {
             citacao: {
-                fist: 'The',
+                fist: '"The',
                 spanOne: 'simplicity',
                 second: 'is the highest degree of',
-                spanTwo: 'sophistication'
+                spanTwo: 'sophistication"'
             },
             home: {
                 hi: 'Say hi'
@@ -42,7 +42,9 @@ const messages = {
             projetos: {
                 fortaleza: 'An extension grant where I was responsible for migrating a mobile app to desktop. I had the fullstack pael and worked with react, firebase and the google maps api, in addition to creating the interface. This project aims to mark and bring information about songs that mention places in Fortaleza.',
                 ecomerce: 'A complete e-commerce project to improve my knowledge in Vue3.',
-                estagio: 'Developed during my internship at (NPI), which consists of a system for exchanging documents related to internships between students and teachers, as part of the design team, we were responsible for thinking about the system is interface with a high-fidelity and navigable prototype.'
+                estagio: 'Developed during my internship at (NPI), which consists of a system for exchanging documents related to internships between students and teachers, as part of the design team, we were responsible for thinking about the system is interface with a high-fidelity and navigable prototype.',
+                moteis: 'This project to redesign the landing page of the go motel guide app, among the deliverables are: design system, wireframe, high fidelity prototype and navigable peototype.'
+
             }
         }
     }

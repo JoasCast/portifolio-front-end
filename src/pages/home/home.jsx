@@ -48,7 +48,7 @@ function Home (){
             <a href="mailto:joascastelo5@gmail.com?subject=Assunto&body=">
                 <div className='acenar'>
                     <p className='diga'>{i18n.t('home.hi')}</p>
-                    <span class="material-symbols-outlined">
+                    <span className="material-symbols-outlined">
                         waving_hand
                     </span>
                 </div>

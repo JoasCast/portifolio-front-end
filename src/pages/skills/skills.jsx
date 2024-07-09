@@ -32,7 +32,7 @@ function Skills() {
                 </div>
 
                 <div className="card">
-                <span class="material-symbols-outlined" alt="sinbolo de desenvolvimento">code</span>
+                <span className="material-symbols-outlined" alt="sinbolo de desenvolvimento">code</span>
                     <h1 className="name">Font-end</h1>
                     <p className="texto">{i18n.t('skills.frontText')}</p>
                 </div>
