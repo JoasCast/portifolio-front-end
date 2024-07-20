@@ -10,7 +10,7 @@ function Footer() {
         <div className="footer">
             <div className="content">
                 <h4>Joas Dev.</h4>
-                <a className="botao" href="https://drive.google.com/file/d/1jzplYfQ7eucOsyFn55Gj75sqGj_kumgy/view?usp=drive_link" target="_blank" rel='noreferrer'>
+                <a className="botao" href="https://drive.google.com/file/d/1OMCWUlVeudcbCHNmmWN8vebe8qR_vZ37/view?usp=sharing" target="_blank" rel='noreferrer'>
                         <p>curriculum</p>
                         <span className="material-symbols-outlined">arrow_outward</span>
                 </a>

@@ -32,7 +32,7 @@ function Sobre(){
             </div>
  
             <div className="textoDois">
-                <p>{i18n.t('sobre.textOne')}</p>
+                <p>{i18n.t('sobre.textTwo')}</p>
                 <div className="foto">
                     <img src={perfil} alt={i18n.t('sobre.alt')} />
                 </div>

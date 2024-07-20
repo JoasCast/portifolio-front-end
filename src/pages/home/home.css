@@ -23,14 +23,14 @@
 
 .home .name .material-symbols-outlined{
     color: #00FF7F;
-    font-size: 2em;
+    font-size: 50px;
     cursor: pointer;
-    transition: all 2s;
     user-select: none;
+    font-weight: lighter;
 }
 
 .home .name h6{
-    margin: 0% 2%;
+    margin: 0% 1%;
 }
 
 .home .name .rosa{

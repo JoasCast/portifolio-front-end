@@ -3,7 +3,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 10%;
 }
 
 .diferenciais .cabecalho{
@@ -25,7 +24,7 @@
     align-items: center;
     width: 40%;
     padding: 60px 24px;
-    margin: 4%;
+    margin: 3%;
     border-radius: 10px;
     border: 2px solid #00FF7F;
     transition: all 0.5s;

@@ -3,7 +3,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 10%;
 }
 
 .skills .cabecalho{
@@ -23,6 +22,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     width: 80%;
 }
 
@@ -31,7 +31,12 @@
     width: 24%;
     height: 200px;
     padding: 60px 24px;
-    transition: all 0.5s;
+    transition: all 1.0s;
+    margin-bottom: 3%;
+}
+
+.skills .linha .card.last-card {
+    border: none;
 }
 
 .skills .card:hover{
@@ -65,12 +70,6 @@
     font-weight: 80;
 }
 
-.skills .linhaDois{
-    display: flex;
-    justify-content: left;
-    width: 80%;
-    gap: 9%;
-}
 
 @media (max-width: 450px) {
 

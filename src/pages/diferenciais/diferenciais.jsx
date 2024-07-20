@@ -25,9 +25,11 @@ function Diferencias() {
                     <h1 className="name">{i18n.t('diferenciais.dev')}</h1>
                     <p className="texto">{i18n.t('diferenciais.devText')}</p>
                 </div>
+
             </div>
 
             <div className="linha">
+
                 <div className="card">
                     <img src={estagio} alt="icone foguete" className="icone" />
                     <h1 className="name">{i18n.t('diferenciais.internship')}</h1>
@@ -39,8 +41,8 @@ function Diferencias() {
                     <h1 className="name">Scrum</h1>
                     <p className="texto">{i18n.t('diferenciais.scrumText')}</p>
                 </div>
-
             </div>
+
 
         </div>
     )

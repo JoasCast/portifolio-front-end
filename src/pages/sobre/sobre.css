@@ -59,6 +59,7 @@
     color: #656A7B;
     font-size: 2em;
     margin-left: 0;
+    margin: 20px;
 }
 
 .sobre .textoDois p{
@@ -68,10 +69,10 @@
 .sobre .textoDois .foto{
     width: 300px;
     height: 300px;
+    padding: 1px;
     margin: 0px 50px;
     background-color: #00FF7F;
     border-radius: 200px;
-    filter: grayscale(100%) contrast(1);
 }
 
 .sobre .textoDois .foto img{
@@ -79,6 +80,7 @@
     height: 100%;
     background-color: #00FF7F;
     border-radius: 50%;
+    filter: grayscale(100%) contrast(1);
 }
 
 @media (max-width: 450px) {

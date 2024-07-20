@@ -7,6 +7,8 @@ import css from '../../Assets/icons-css.svg'
 import js from '../../Assets/icons-js.svg'
 import react from '../../Assets/icone-react.svg'
 import vue from '../../Assets/icone-vuejs.svg'
+import TS from '../../Assets/TX.svg'
+import tailwind from'../../Assets/tailwind.svg'
 
 function Skills() {
     
@@ -17,6 +19,7 @@ function Skills() {
                 <h4>Skills</h4>
             </div>
 
+            {/* Educacão */}
             <h6 className='titulo' >{i18n.t('skills.education')}</h6>
             <div className="linha">
                 <div className="card">
@@ -38,6 +41,7 @@ function Skills() {
                 </div>
             </div>
 
+            {/* technologies */}
             <h6 className='titulo' >{i18n.t('skills.technologies')}</h6>
             <div className="linha">
                 <div className="card">
@@ -53,14 +57,31 @@ function Skills() {
                 </div>
 
                 <div className="card">
-                <img src={js} alt="icone java script" className="icone" />
+                    <img src={js} alt="icone java script" className="icone" />
                     <h1 className="name">Java Script</h1>
                     <p className="texto">{i18n.t('skills.JavascriptText')}</p>
                 </div>
+
+                <div className="card">
+                    <img src={TS} alt="icone TypeScript" className="icone" />
+                    <h1 className="name">TypeScript</h1>
+                    <p className="texto">{i18n.t('skills.TypecriptText')}</p>
+                </div>
+
+                <div className="card ">
+                    <img src={tailwind} alt="icone tailwind" className="icone" />
+                    <h1 className="name">Tailwind</h1>
+                    <p className="texto">{i18n.t('skills.tailwind')}</p>
+                </div>
+
+                <div className="card last-card"/>
+                
             </div>
 
+             {/* Frameworks */}
             <h6 className='titulo' >Frameworks</h6>
-            <div className="linhaDois">
+            <div className="linha">
+
                 <div className="card">
                     <img src={react} alt="icone UI/UX" className="icone" />
                     <h1 className="name">React</h1>
@@ -72,6 +93,9 @@ function Skills() {
                     <h1 className="name">Vue</h1>
                     <p className="texto">{i18n.t('skills.vueText')}</p>
                 </div>
+
+                <div className="card last-card"/>
+                
             </div>
 
         </div>
