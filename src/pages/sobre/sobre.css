@@ -80,7 +80,7 @@
     height: 100%;
     background-color: #00FF7F;
     border-radius: 50%;
-    filter: grayscale(100%) contrast(1);
+    //filter: grayscale(100%) contrast(1);
 }
 
 @media (max-width: 450px) {

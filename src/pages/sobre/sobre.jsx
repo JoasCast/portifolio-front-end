@@ -2,7 +2,7 @@ import './sobre.css'
 import github from'../../Assets/icons-github.svg'
 import linkedin from '../../Assets/icons-linkedin.svg'
 import gmail from '../../Assets/icons-gmail.svg'
-import perfil from '../../Assets/perfil.jpg'
+import perfil from '../../Assets/foto perfil 2.png'
 import { i18n } from '../../translate/i18n'
 
 function Sobre(){
