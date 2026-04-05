@@ -5,11 +5,89 @@ import estagio from "../../Assets/e-stágio.png";
 import deco from "../../Assets/decoLogo.png";
 import moteis from "../../Assets/guiaMoteis.png"
 import NLJ from "../../Assets/planner.png"
+import Holding from "../../Assets/holding.png"
 
 function Projetos() {
 
   return (
     <div className="projetos" id="projetos">
+        <div className="cabecalho">
+        <h4>Projetos UI/UX</h4>
+        </div>
+      
+        <div className="linha">
+
+          <div className="card">
+            <img src={Holding} alt=" letra 'é' formada pelas cores azul e laranja"/>
+            <div className="footer">
+              <h1 className="titulo" >Holding</h1>
+              <p>{i18n.t("projetos.holding")} </p>
+
+              <div className="tags">
+                <img className="tag" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+                <img className="tag" src="https://img.shields.io/badge/UI-007ACC?style=for-the-badge&logo=UI&logoColor=white" alt="UI" />
+                <img className="tag" src="https://img.shields.io/badge/Prototype-38B2AC?style=for-the-badge&logo=Protootype-css&logoColor=white" alt="Prototype" />
+                <img className="tag" src="https://img.shields.io/badge/Wireframe-F7DF1E?style=for-the-badge&logo=Wireframe&logoColor=black" alt="wireframe" />
+              </div>
+            
+            </div>
+            <a href="https://www.figma.com/proto/WiVToiaOKuCWVeVlLYagJH/Grupo-2---Sa%C3%BAde-mental?node-id=897-23830&viewport=-1046%2C-951%2C0.28&t=MY4g7yBNdzZ327LV-1&scaling=contain&content-scaling=fixed&page-id=884%3A2920"
+                  target="_blank" rel='noreferrer'
+                  className="botao"
+                >
+                  <p>view project</p>
+                  <span className="material-symbols-outlined">arrow_outward</span>
+                </a>
+          </div>
+
+        <div className="card">
+            <img src={estagio} alt=" letra 'é' formada pelas cores azul e laranja"/>
+            <div className="footer">
+              <h1 className="titulo" >E-stágio</h1>
+              <p>{i18n.t("projetos.estagio")} </p>
+
+              <div className="tags">
+                <img className="tag" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+                <img className="tag" src="https://img.shields.io/badge/UI-007ACC?style=for-the-badge&logo=UI&logoColor=white" alt="UI" />
+                <img className="tag" src="https://img.shields.io/badge/Prototype-38B2AC?style=for-the-badge&logo=Protootype-css&logoColor=white" alt="Prototype" />
+                <img className="tag" src="https://img.shields.io/badge/Wireframe-F7DF1E?style=for-the-badge&logo=Wireframe&logoColor=black" alt="wireframe" />
+              </div>
+            
+            </div>
+            <a href="https://www.figma.com/proto/Pk3KW8vhrw6n0o5q1VBWgY/UI---Gest%C3%A3o-de-est%C3%A1gio?page-id=982%3A22035&type=design&node-id=1158-58337&viewport=335%2C-370%2C0.06&t=gtCW0yR0R7Hj0Sg0-1&scaling=min-zoom&starting-point-node-id=1158%3A58337&show-proto-sidebar=1&mode=design"
+                  target="_blank" rel='noreferrer'
+                  className="botao"
+                >
+                  <p>view project</p>
+                  <span className="material-symbols-outlined">arrow_outward</span>
+                </a>
+          </div>
+
+          <div className="card">
+            <img src={moteis} alt="logo com o nome guia de moteis go" />
+            <div className="footer">
+              <h1 className="titulo" >Guia de Motéis go</h1>
+              <p>{i18n.t("projetos.moteis")} </p>
+
+              <div className="tags">
+                <img className="tag" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+                <img className="tag" src="https://img.shields.io/badge/UI-007ACC?style=for-the-badge&logo=UI&logoColor=white" alt="UI" />
+                <img className="tag" src="https://img.shields.io/badge/Prototype-38B2AC?style=for-the-badge&logo=Protootype-css&logoColor=white" alt="Prototype" />
+                <img className="tag" src="https://img.shields.io/badge/Wireframe-F7DF1E?style=for-the-badge&logo=Wireframe&logoColor=black" alt="wireframe" />
+              </div>
+
+            </div>
+            <a href="https://www.figma.com/proto/0VoYHiQQKMiJRi6IHa3QJL/Guia-de-Moteis?page-id=116%3A184&node-id=128-544&t=YkWQZ0ga1dWoMN8U-0&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=128%3A866&show-proto-sidebar=1"
+                  target="_blank" rel='noreferrer'
+                  className="botao"
+                >
+                  <p>view project</p>
+                  <span className="material-symbols-outlined">arrow_outward</span>
+                </a>
+          </div>
+
+      </div>
+
       <div className="cabecalho">
         <h4>Projetos Front-end</h4>
       </div>
@@ -81,62 +159,6 @@ function Projetos() {
                 <span className="material-symbols-outlined">arrow_outward</span>
               </a>
         </div>
-
-      </div>
-
-        <div className="cabecalho">
-        <h4>Projetos UI/UX</h4>
-        </div>
-      
-        <div className="linha">
-
-        <div className="card">
-            <img src={estagio} alt=" letra 'é' formada pelas cores azul e laranja"/>
-            <div className="footer">
-              <h1 className="titulo" >E-stágio</h1>
-              <p>{i18n.t("projetos.estagio")} </p>
-
-              <div className="tags">
-                <img className="tag" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
-                <img className="tag" src="https://img.shields.io/badge/UI-007ACC?style=for-the-badge&logo=UI&logoColor=white" alt="UI" />
-                <img className="tag" src="https://img.shields.io/badge/Prototype-38B2AC?style=for-the-badge&logo=Protootype-css&logoColor=white" alt="Prototype" />
-                <img className="tag" src="https://img.shields.io/badge/Wireframe-F7DF1E?style=for-the-badge&logo=Wireframe&logoColor=black" alt="wireframe" />
-              </div>
-            
-            </div>
-            <a href="https://www.figma.com/proto/Pk3KW8vhrw6n0o5q1VBWgY/UI---Gest%C3%A3o-de-est%C3%A1gio?page-id=982%3A22035&type=design&node-id=1158-58337&viewport=335%2C-370%2C0.06&t=gtCW0yR0R7Hj0Sg0-1&scaling=min-zoom&starting-point-node-id=1158%3A58337&show-proto-sidebar=1&mode=design"
-                  target="_blank" rel='noreferrer'
-                  className="botao"
-                >
-                  <p>view project</p>
-                  <span className="material-symbols-outlined">arrow_outward</span>
-                </a>
-          </div>
-
-          <div className="card">
-            <img src={moteis} alt="logo com o nome guia de moteis go" />
-            <div className="footer">
-              <h1 className="titulo" >Guia de Motéis go</h1>
-              <p>{i18n.t("projetos.moteis")} </p>
-
-              <div className="tags">
-                <img className="tag" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
-                <img className="tag" src="https://img.shields.io/badge/UI-007ACC?style=for-the-badge&logo=UI&logoColor=white" alt="UI" />
-                <img className="tag" src="https://img.shields.io/badge/Prototype-38B2AC?style=for-the-badge&logo=Protootype-css&logoColor=white" alt="Prototype" />
-                <img className="tag" src="https://img.shields.io/badge/Wireframe-F7DF1E?style=for-the-badge&logo=Wireframe&logoColor=black" alt="wireframe" />
-              </div>
-
-            </div>
-            <a href="https://www.figma.com/proto/0VoYHiQQKMiJRi6IHa3QJL/Guia-de-Moteis?page-id=116%3A184&node-id=128-544&t=YkWQZ0ga1dWoMN8U-0&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=128%3A866&show-proto-sidebar=1"
-                  target="_blank" rel='noreferrer'
-                  className="botao"
-                >
-                  <p>view project</p>
-                  <span className="material-symbols-outlined">arrow_outward</span>
-                </a>
-          </div>
-
-          <div className="card last-card"/>
 
       </div>
     </div>

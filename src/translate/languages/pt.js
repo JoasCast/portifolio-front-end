@@ -47,7 +47,8 @@ const messages = {
                 deco: 'Feito no bootcamp da deco.cx, aprendendo a criar interfaces que contam com um admin para controle das informações, e estilos. O sistema  foi feito usando preact e deno, junto com TypeScript.',
                 planner: 'Sistema feito na trilha ReactJS da NLWJourney ofertada pela rocketseat. O objetivo do projeto e fazer um planejador de viagens onde pode escolher local, convidar amigos via email, marcar eventos por data e horário, e adicionar links úteis, Tudo isso ultilizando TypeScript, Tailwind, e NodeJS..',
                 estagio: 'Desenvolvido durante meu estágio no (NPI), que consiste em um sistema para troca de documentos referente a estágio entre alunos e professores, como pertencente da equipe de design, ficamos responsáveis por pensar a interface do sistema com um protótipo de alta fidelidade e navegável.',
-                moteis: 'Este projeto de redesign da landing page do app guia de moteis go, entre os entregáveis estão: design system, wireframe, protótipo em alta fidelidade e protótipo navegável.'
+                moteis: 'Este projeto de redesign da landing page do app guia de moteis go, entre os entregáveis estão: design system, wireframe, protótipo em alta fidelidade e protótipo navegável.',
+                holding:'Desenvolvido durante meu estágio na Compass UOL, este projeto consistiu na criação de um aplicativo mobile voltado ao apoio à saúde mental. Para isso, realizamos uma imersão no tema por meio de entrevistas com profissionais da área e usuários, garantindo um desenvolvimento mais alinhado às reais necessidades do público.'
             }
         }
     },

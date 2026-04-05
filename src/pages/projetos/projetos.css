@@ -34,19 +34,19 @@
 }
 
 .projetos .linha .card img{
-    width: 100%;
+    width: 80%;
     margin: 4% 0%;
     border-radius: 10%;
 }
 
 .projetos .linha .card .footer{
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     color: #656A7B;
     font-size: 1em;
-    margin: 0%;
+    margin: 0;
 }
 
 .projetos .linha .card .footer .titulo{
@@ -73,7 +73,7 @@
 }
 
 .projetos .linha .card .botao{
-    width: 100%;
+    width: 80%;
     height: 6%;
     display: flex;
     align-items: center;

@@ -47,7 +47,8 @@ const messages = {
                 deco: 'Done at the deco.cx bootcamp, learning how to create interfaces that have an admin to control information and styles. The system was built using preact and deno, along with TypeScript.',
                 planner:'System made on the NLWJourney ReactJS track offered by rocketseat. The objective of the project is to create a travel planner where you can choose a location, invite friends via email, schedule events by date and time, and add useful links, all using TypeScript, Tailwind, and NodeJS.',
                 estagio: 'Developed during my internship at (NPI), which consists of a system for exchanging documents related to internships between students and teachers, as part of the design team, we were responsible for thinking about the system is interface with a high-fidelity and navigable prototype.',
-                moteis: 'This project to redesign the landing page of the go motel guide app, among the deliverables are: design system, wireframe, high fidelity prototype and navigable peototype.'
+                moteis: 'This project to redesign the landing page of the go motel guide app, among the deliverables are: design system, wireframe, high fidelity prototype and navigable peototype.',
+                holding: 'Developed during my internship at Compass UOL, this project involved creating a mobile application focused on supporting mental health. To achieve this, we conducted an in-depth exploration of the topic through interviews with mental health professionals and users, ensuring a solution aligned with real user needs.'
 
             }
         }
